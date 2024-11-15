@@ -1,0 +1,59 @@
+.app-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.QR-Code-Image{
+    padding: 15px;
+}
+
+.input-Label{
+display: block;
+margin-bottom: 20px;
+}
+
+input[type = "text"]{
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+
+button{
+    padding: 15px, 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Enter-btn{
+    background-color: lightskyblue;
+    margin-right: 10px;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.Download-btn{
+    background-color: lightgreen;
+    color: aliceblue;
+    font-weight: 500;
+
+}
+
+.Download-btn:hover{
+    background-color: darkgreen;
+}
+
+.Enter-btn:hover{
+    background-color: darkslateblue;
+}
+

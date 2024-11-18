@@ -1,5 +1,5 @@
 import './App.css'
-import Advice from './Componets/Advice'
+import UseEffect from './Componets/UseEffect'
 // import SignUp from './Componets/SignUp'
 // import Login from './Componets/Login'
 // import { BrowserRouter, Route, Routes } from 'react-router-dom'
@@ -16,7 +16,7 @@ function App() {
           <Route path="/home" element={<Home/>} />
         </Routes>
         </BrowserRouter> */}
-        <Advice/>
+        <UseEffect/>
       </div>
     </>
   )
